@@ -57,18 +57,21 @@ createPlatform(0,150,1300,5)
 createCollectable ("grace",500,100,0,0)
 createCollectable ("max",200,200,0,0)
 createCollectable ("steve",800,300,0,0)
-createCollectable ("kannedi",900,400,0,0)
-createCollectable ("database",100,500,0,0)
+createCollectable ("kennedi",900,400,0,0)
+createCollectable ("database",500,500,0,0)
 createCollectable ("diamond",1000,600,0,0)
     // TODO 3
     // Create cannons
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
-createCannon(right,180,300,100,50)
-
-
-
+    createCannon("right", 280, 2000, 200,20)
+    createCannon("right", 480, 2000, 200,20)
+    createCannon("right", 680, 2000, 200,20)
+    createCannon("left", 280, 2000, 200,20)
+    createCannon("left", 480, 2000, 200,20)
+    createCannon("bottom", 400, 1300, 10,20)
+    createCannon("bottom", 800, 1300, 10,20)
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
     /////////////////////////////////////////////////
