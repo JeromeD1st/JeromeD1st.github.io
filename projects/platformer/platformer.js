@@ -60,6 +60,7 @@ createCollectable ("steve",800,300,0,0)
 createCollectable ("kennedi",900,400,0,0)
 createCollectable ("database",500,500,0,0)
 createCollectable ("diamond",1000,600,0,0)
+createCollectable ("database", 1250,700,0,0)
     // TODO 3
     // Create cannons
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
@@ -70,8 +71,8 @@ createCollectable ("diamond",1000,600,0,0)
     createCannon("right", 680, 2000, 200,20)
     createCannon("left", 280, 2000, 200,20)
     createCannon("left", 480, 2000, 200,20)
-    createCannon("bottom", 400, 1300, 10,20)
-    createCannon("bottom", 800, 1300, 10,20)
+    createCannon("bottom", 400, 1300, 30,30,30)
+    createCannon("bottom", 800, 1400, 30,30,30)
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
     /////////////////////////////////////////////////
