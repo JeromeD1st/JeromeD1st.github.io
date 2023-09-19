@@ -71,7 +71,7 @@ createCollectable ("database", 50,650,0,0)
     createCannon("right",550,2600,140,5)
     createCannon("left", 330, 2500, 140,5)
     createCannon("left", 530, 2500, 140,5)
-    createCannon("bottom 400, 1500, 10,10,)
+    createCannon("bottom", 400, 1500, 10,10,)
     createCannon("bottom", 800, 1500, 10,10,)
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
